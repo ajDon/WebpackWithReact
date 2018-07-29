@@ -1,0 +1,11 @@
+@import "themeColor.scss";
+
+#myApp {
+  @import "bootstrap/scss/bootstrap.scss";
+  @import "office-ui-fabric-react/dist/sass/fabric.scss";
+  font-family: $theme-font;
+  background-color: $themeColor-Light;
+  h1, h2 {
+      color: $themeColor-Dark
+  };
+}
